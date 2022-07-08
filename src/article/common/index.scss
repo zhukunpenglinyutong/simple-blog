@@ -1,0 +1,69 @@
+.page {
+    color: #fff;
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.blog-time-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    .blog-time-item-time {
+        cursor:pointer;
+        color: #fff;
+        opacity: .7;
+        font-size: 12px;
+        border-bottom: 1px solid #64748B;
+        margin-right: 12px;
+        transition: all .5s ease-in-out;
+        &:hover {
+            opacity: 1;
+        }
+    }
+    .blog-time-item-type {
+        cursor:pointer;
+        font-size: .875rem;
+        padding: 1px 6px;
+        border-radius: 3px;
+        margin: 3px 0;
+    }
+}
+
+// 文章标题
+.blog-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    min-height: 48px;
+    line-height: 48px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+// 对应一行文字的样式（也可以是空样式）
+.blog-text {
+    min-height: 38px;
+    line-height: 38px;
+}
+
+// H1-H5 样式
+.blog-h1 {
+    font-size: 1.875rem;
+}
+.blog-h2 {
+    font-size: 1.5rem;
+}
+.blog-h3 {
+    font-size: 1.25rem;
+}
+.blog-h4 {
+    font-size: 1rem;
+}
+.blog-h5 {
+    font-size: 0.8125rem;
+}
+
+// 加重 对应 ****
+.blog-blod {
+    color: #F59E0B;
+    font-weight: 500;
+}

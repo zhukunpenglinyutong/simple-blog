@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    height: 100px;
+    padding: 0px 24px;
+    .header-index {
+        cursor: pointer;
+    }
+    .header-content {
+        width: 520px;
+        display: flex;
+        justify-content: space-between;
+        .header-item {
+            transition: all .5s ease-in-out;
+            font-weight: 600;
+            cursor: pointer;
+            opacity: .7;
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+    .header-search {
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+    }
+}

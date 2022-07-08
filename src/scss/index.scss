@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  font-size: 16px;
+}
+
+:root {
+  --color-text-default: #FFF;
+  --color-text-default-light: #64748B;
+  --color-text-gray: #64748B;
+  --color-text-brown: #B45309;
+  --color-text-orange: #EA580C;
+  --color-text-yellow: #F59E0B;
+  --color-text-green: #0D9488;
+  --color-text-blue: #2563EB;
+  --color-text-purple: #7C3AED;
+  --color-text-pink: #DB2777;
+  --color-text-red: #DC2626;
+  --color-bg-default: #000;
+  --color-bg-gray: #64748B;
+  --color-bg-brown: #B45309;
+  --color-bg-orange: #EA580C;
+  --color-bg-yellow: #F59E0B;
+  --color-bg-green: #0D9488;
+  --color-bg-blue: #2563EB;
+  --color-bg-purple: #7C3AED;
+  --color-bg-pink: #DB2777;
+  --color-bg-red: #DC2626;
+  --color-bg-gray-light: #64748B;
+  --color-bg-brown-light: #B45309;
+  --color-bg-orange-light: #EA580C;
+  --color-bg-yellow-light: #F59E0B;
+  --color-bg-green-light: #0D9488;
+  --color-bg-blue-light: #2563EB;
+  --color-bg-purple-light: #7C3AED;
+  --color-bg-pink-light: #DB2777;
+  --color-bg-red-light: #DC2626;
+  --color-pill-default: rgba(255,255,255,0.1);
+  --color-pill-gray: #64748B;
+  --color-pill-brown: #B45309;
+  --color-pill-orange: #EA580C;
+  --color-pill-yellow: #F59E0B;
+  --color-pill-green: #0D9488;
+  --color-pill-blue: #2563EB;
+  --color-pill-purple: #7C3AED;
+  --color-pill-pink: #DB2777;
+  --color-pill-red: #DC2626;
+  --color-ui-hover-bg: rgb(26,26,26);
+  --color-card-bg: #000;
+  --color-checkbox-bg: #2563EB;
+  --color-border-default: rgba(255,255,255,0.1);
+  --color-border-dark: rgba(255,255,255,0.1);
+  --scrollbar-background-color: #FAFAFA;
+  --scrollbar-thumb-color: #C1C1C1;
+  --scrollbar-border-color: #E8E8E8;
+  --navbar-text-color: rgba(255, 255, 255, 1);
+  --navbar-background-color: rgba(0, 0, 0, 1);
+  --navbar-button-text-color: rgba(243, 243, 243, 1);
+  --navbar-button-background-color: rgba(0, 0, 0, 1);
+  --navbar-menu-background-color: var(--navbar-background-color);
+  --footer-text-color: var(--color-text-default);
+  --footer-background-color: var(--color-bg-default);
+  --color-calendar-weekend-bg: undefined;
+}
+
+/* 滚动槽 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.06);
+  -webkit-box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.08);
+}
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.12);
+  -webkit-box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.2);
+}
